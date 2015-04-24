@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularCharts', ['ngAnimate', 'ngTouch', 'ui.router'])
+angular.module('angularCharts', ['ngAnimate', 'ngTouch', 'ui.router', 'charts'])
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state('home', {
